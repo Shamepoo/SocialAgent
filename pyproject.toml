@@ -1,0 +1,11 @@
+[project]
+name = "soical-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogen-ext[openai]>=0.5.5",
+    "load-dotenv>=0.1.0",
+    "tweety-ns>=2.2",
+]
